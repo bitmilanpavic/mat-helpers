@@ -1,0 +1,12 @@
+{
+  "name": "math-helpers",
+  "version": "1.0.0",
+  "description": "A collection of simple math utility functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["math", "utilities"],
+  "author": "Your Name",
+  "license": "MIT"
+}
