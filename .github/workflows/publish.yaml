@@ -19,6 +19,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Clear npm cache
+        run: npm cache clean -f
+
       - name: Publish to npm
         run: npm publish --access public
         env:
