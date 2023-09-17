@@ -1,5 +1,5 @@
 {
-  "name": "mp_math-helpers",
+  "name": "mp-math-helpers",
   "version": "1.1.0",
   "description": "A collection of simple math utility functions.",
   "main": "index.js",
