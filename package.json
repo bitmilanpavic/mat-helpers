@@ -1,5 +1,5 @@
 {
-  "name": "math-helpers",
+  "name": "@bitmilanpavic/math-helpers",
   "version": "1.0.0",
   "description": "A collection of simple math utility functions.",
   "main": "index.js",
