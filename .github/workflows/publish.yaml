@@ -18,9 +18,6 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-
-      - name: Authenticate with npm
-        run: npm login --registry=https://registry.npmjs.org
           
       - name: Publish to npm
         run: npm publish --access public
