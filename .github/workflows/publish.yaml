@@ -18,11 +18,6 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-
-      - name: Authenticate with npm
-        run: npm login --registry=https://registry.npmjs.org
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
           
       - name: Publish to npm
         run: npm publish --access public
