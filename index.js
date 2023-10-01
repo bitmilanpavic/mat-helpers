@@ -13,3 +13,11 @@ export function isPowerOfTwo(number) {
   }
   return (number & (number - 1)) === 0;
 }
+
+// Function to add two numbers
+export function addNumbers(a, b) {
+  if (typeof a !== 'number' || typeof b !== 'number') {
+    throw new Error('Both arguments must be numbers');
+  }
+  return a + b;
+}
