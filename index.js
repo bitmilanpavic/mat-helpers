@@ -6,10 +6,10 @@ export function powerOfTwo(exponent) {
     return 2 ** exponent;
   }
   
-  // Function to check if a number is a power of 2
-  export function isPowerOfTwo(number) {
-    if (number <= 0) {
-      return false;
-    }
-    return (number & (number - 1)) === 0;
+// Function to check if a number is a power of 2
+export function isPowerOfTwo(number) {
+  if (number <= 0) {
+    return false;
   }
+  return (number & (number - 1)) === 0;
+}
