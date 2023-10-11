@@ -1,7 +1,7 @@
 // Function to calculate the power of 2
 export function powerOfTwo(exponent) {
     if (exponent < 0) {
-      throw new Error('Exponent must be a non-negative integer');
+      throw new Error('Exponent must be a non-negative integer.');
     }
     return 2 ** exponent;
   }
