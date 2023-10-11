@@ -1,7 +1,7 @@
 // Function to calculate the power of 2
 export function powerOfTwo(exponent) {
     if (exponent < 0) {
-      throw new Error('Exponent must be a non-negative integer.');
+      throw new Error('Exponent must be a non-negative integer');
     }
     return 2 ** exponent;
   }
@@ -17,7 +17,7 @@ export function isPowerOfTwo(number) {
 // Function to add two numbers
 export function addNumbers(a, b) {
   if (typeof a !== 'number' || typeof b !== 'number') {
-    throw new Error('Both arguments must be numbers.');
+    throw new Error('Both arguments must be numbers');
   }
   return a + b;
 }
