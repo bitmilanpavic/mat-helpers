@@ -1,6 +1,6 @@
 {
   "name": "@milan_p/math-helpers",
-  "version": "1.21.0",
+  "version": "1.23.0",
   "description": "A collection of simple math utility functions.",
   "main": "index.js",
   "type": "module",
